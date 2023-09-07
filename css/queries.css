@@ -1,0 +1,92 @@
+/* Default styles for larger screens */
+/* Add your existing CSS styles here */
+
+/* Media query for tablets (landscape) */
+@media (max-width: 1024px) {
+  body {
+    font-size: 55%;
+  }
+
+  .show-modal {
+    font-size: 1.8rem;
+    padding: 1.5rem 2.5rem;
+    margin: 3rem 1rem;
+  }
+
+  .modal {
+    width: 80%;
+    padding: 4rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+}
+
+/* Media query for tablets (portrait) and mobile phones */
+@media (max-width: 768px) {
+  body {
+    font-size: 50%;
+  }
+
+  .show-modal {
+    font-size: 1.6rem;
+    padding: 1.25rem 2rem;
+    margin: 2rem 0.5rem;
+  }
+
+  .modal {
+    width: 90%;
+    padding: 3rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  .close-modal {
+    font-size: 4rem;
+    right: 1rem;
+  }
+}
+
+/* Media query for mobile phones (portrait) */
+@media (max-width: 480px) {
+  body {
+    font-size: 45%;
+  }
+
+  .show-modal {
+    font-size: 1.4rem;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0.25rem;
+  }
+
+  .modal {
+    width: 95%;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .close-modal {
+    font-size: 3rem;
+    right: 0.5rem;
+  }
+}
